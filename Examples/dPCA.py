@@ -76,7 +76,6 @@ def get_components(transformed_dihedrals, components=2, random_state=420):
     """
 
     pca = PCA(n_components=components, random_state=random_state)
-    print(transformed_dihedrals)
     principal_comps = pca.fit_transform(transformed_dihedrals)
 
     return principal_comps
