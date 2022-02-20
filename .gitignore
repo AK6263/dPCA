@@ -1,0 +1,12 @@
+.pentapeptide-00-500ns-impl-solv.xtc_offsets.npz
+classified.py
+main.py
+pentapeptide-00-500ns-impl-solv.xtc
+pentapeptide-01-500ns-impl-solv.xtc
+pentapeptide-impl-solv.pdb
+pentapeptide.ipynb
+.ipynb_checkpoints/pentapeptide-checkpoint.ipynb
+__pycache__/dPCA.cpython-37.pyc
+__pycache__/dPCA.cpython-38.pyc
+Examples/Untitled.ipynb
+Examples/.ipynb_checkpoints/Untitled-checkpoint.ipynb
