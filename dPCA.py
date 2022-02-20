@@ -1,17 +1,7 @@
-import os
-from sqlite3 import paramstyle
-from tokenize import String
-from black import main
-from tqdm import tqdm
 import numpy as np
-import pandas as pd
 import MDAnalysis as mda
 from MDAnalysis.analysis.dihedrals import Dihedral
-import mdtraj as md
-import pytraj as pt
 from sklearn.decomposition import PCA
-
-
 
 def get_trajectory(PDB_FILE_NAME: str, XTC_FILE_NAME: str):
     """Loads the trajectory and topology to genedrate a Universe Object
